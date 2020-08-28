@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <header>
+            <h1>Sistemas Web!</h1>
+            <img src="https://via.placeholder.com/200x50?text=Logo+aqui" alt="Logotipo"><br>
+            <a href="//ufop.br" target="_blank">Clique aqui para ir para a UFOP.br</a><br>
+            <a href="cadastro.html">Cadastrar</a><br>
+            <a href="relatorio.html">Relatório</a>
+        </header>
+        <hr>
+        <main>
+            <h1>Dados do cadastro</h1>
+
+            <form method="post" action="validar.html">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome">
+                </div>
+                <div>
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Seu endereço">
+                </div>
+                <div>
+                    <label>Gênero</label>
+                    <div>
+                        <input type="radio" name="genero" id="feminino" value="f">
+                        <label for="feminino">Feminino</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="genero" id="masculino" value="m">
+                        <label for="masculino">Masculino</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="genero" id="semresposta" value="n">
+                        <label for="semresposta">Prefiro não Informar</label>
+                    </div>
+                </div>
+                <div>
+                    <label>Áreas de Interesse:</label>
+                    <div>
+                        <input type="checkbox" name="web" id="web">
+                        <label for="web">Sistemas Web</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="db" id="db">
+                        <label for="db">Banco de Dados</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="redes" id="redes">
+                        <label for="redes">Redes de Computadores</label>
+                    </div>
+                </div>
+                
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+            <a href="introducao.html">Voltar</a>
+        </main>
+        
+    </body>
+</html>
