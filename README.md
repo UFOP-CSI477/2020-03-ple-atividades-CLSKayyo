@@ -10,5 +10,5 @@
 
 ## [Projeto final:](./Projeto/README.md) 
 
-Apresente uma breve descrição do seu projeto.
+RPG online: Um RPG online por texto onde o jogador controlará um ou mais personagens e precisará passar por diversos desafios e subirá de nível, etc.
 
