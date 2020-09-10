@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    /* Foto de Pok Rie no Pexels */
+    background-image: url(https://images.pexels.com/photos/140143/pexels-photo-140143.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-position-x: center;
+    background-position-y: 10%;
+    background-attachment: fixed;
+}
+
+h1{
+    margin: 20px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.btn{
+    margin: 5px;
+}
+
+#resultado{
+    display: none;
+}

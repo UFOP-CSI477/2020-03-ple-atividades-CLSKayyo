@@ -10,5 +10,5 @@
 
 ## [Projeto final:](./Projeto/README.md) 
 
-RPG online: Um RPG online por texto onde o jogador controlará um ou mais personagens e precisará passar por diversos desafios e subirá de nível, etc.
+HistorYou: Um RPG online por texto onde o jogador fará parte de diversas aventuras (chamadas de conversas), através de uma interface que imita um mensageiro instantâneo. O usuário também poderá criar suas próprias histórias.
 
