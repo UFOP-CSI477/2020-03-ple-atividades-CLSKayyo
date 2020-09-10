@@ -34,10 +34,15 @@ Neste trabalho não serão considerados:
 ### 4. Protótipo
 
 Tela de login:
+
 ![Tela de login](https://i.ibb.co/ySpnvqc/image.png)
+
 Seleção de conversas:
+
 ![Seleção de Conversas](https://i.ibb.co/rHc0cJp/image.png)
+
 Tela da conversa:
+
 ![Conversa](https://i.ibb.co/2K0x07s/image.png)
 
 <!-- ### 5. Referências
