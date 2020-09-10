@@ -49,5 +49,10 @@ function imprime(texto){
         text = texto;
     }
 
-    lcd.innerText = text;
+    if(texto == 'NaN' || texto == 'Infinity'){
+        text = '0';
+        texto = 'Inválido';
+    }
+
+    lcd.innerText = texto;
 }
