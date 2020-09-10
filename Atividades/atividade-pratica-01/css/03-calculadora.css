@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    width: 100%;
+    background-color: #0F0F0F;
+    color: aliceblue;
+
+    font-family: 'Roboto', sans-serif;
+
+    padding-top: 50px;
+}
+
+.calculadora{
+    width: 350px;
+    margin: auto;
+    background-color: #2F2F2F;
+}
+
+.card-body{
+    background-color: #2F2F2F;
+}
+
+#lcd{
+    text-align: end;
+    width: 100%;
+}
+
+.botao{
+    margin-top: 5px;
+    width: 24%;
+    border: solid 1px aliceblue;
+    color: aliceblue;
+}
+
+.botao:last-of-type{
+    width: 48.9%;
+}
+
+.botao:hover{
+    background-color: aliceblue;
+}

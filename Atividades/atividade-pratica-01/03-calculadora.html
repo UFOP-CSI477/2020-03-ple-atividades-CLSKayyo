@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/03-calculadora.css">
+
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="card calculadora">
+        <div class="card-body">
+            <div class="card">
+                <div class="card-body">
+                    <h2 id="lcd">0</h2>
+                </div>
+            </div>
+            <div class="botoes">
+                <button onclick="limpaTela()" class="btn botao">C</button>
+                <button onclick="adicionaDigito('*')" class="btn botao">*</button>
+                <button onclick="adicionaDigito('/')" class="btn botao">/</button>
+                <button onclick="deletaDigito()" class="btn botao">Del</button>
+                <button onclick="adicionaDigito('7')" class="btn botao">7</button>
+                <button onclick="adicionaDigito('8')" class="btn botao">8</button>
+                <button onclick="adicionaDigito('9')" class="btn botao">9</button>
+                <button onclick="adicionaDigito('-')" class="btn botao">-</button>
+                <button onclick="adicionaDigito('4')" class="btn botao">4</button>
+                <button onclick="adicionaDigito('5')" class="btn botao">5</button>
+                <button onclick="adicionaDigito('6')" class="btn botao">6</button>
+                <button onclick="adicionaDigito('+')" class="btn botao">+</button>
+                <button onclick="adicionaDigito('1')" class="btn botao">1</button>
+                <button onclick="adicionaDigito('2')" class="btn botao">2</button>
+                <button onclick="adicionaDigito('3')" class="btn botao">3</button>
+                <button onclick="adicionaDigito('%')" class="btn botao">%</button>
+                <button onclick="adicionaDigito('.')" class="btn botao">.</button>
+                <button onclick="adicionaDigito('0')" class="btn botao">0</button>
+                <button onclick="calcula()" class="btn botao">=</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/03-calculadora.js"></script>
+</body>
+</html>
