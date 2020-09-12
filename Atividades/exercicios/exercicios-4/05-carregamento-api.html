@@ -5,34 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/05-carregamento-api.css">
 
-    <title>Formulário</title>
-    <style>
-        body{
-            margin: 50px;
-        }
-    </style>
-
-</head>
+    <title>Aula API</title>
+  </head>
   <body>
-    <form class="form-inline" name="dados">
-        <div class="form-group mx-sm-3 mb-2">
-          <label for="valor1" class="sr-only">Valor 1</label>
-          <input type="number" class="form-control" name="valor1" placeholder="Valor 1">
+    <a href="javascript:carregaPokemon()"><h1>ME DÊ UM POKEMON ALEATÓRIO</h1></a>
+
+    <div class="card" id="pokemon-card">
+        <img src="" class="card-img-top" alt="Sem Imagem" id="imagem">
+        <div class="card-body">
+            <h5 class="card-title" id="nome"></h5>
+            <p class="card-text" id="dados"></p>
         </div>
-        <div class="form-group mx-sm-3 mb-2">
-            <label for="valor2" class="sr-only">Valor 2</label>
-            <input type="number" class="form-control" name="valor2" placeholder="Valor 2">
-        </div>
-        <div class="form-group mx-sm-3 mb-2">
-          <label for="resultado" class="sr-only">Resultado</label>
-          <input type="text" readonly class="form-control-plaintext" name="resultado" value="" placeholder="Resultado">
-        </div>
-        <button type="button" class="btn btn-outline-primary mb-2" onclick="calcular()">Calcular</button>
-      </form>
+    </div>
+
+    
+    
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="./js/04-validacao-form.js"></script>
+    <script src="./js/05-carregamento-api.js"></script>
 </body>
 </html>
