@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1{
+    margin: 20px;
+}
+
+button{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.resultado{
+    margin-top: 30px;
+}
