@@ -1,0 +1,37 @@
+table {
+    background-color: white;
+    margin: auto;
+    width: 80%;
+}
+
+table, th, td{
+    border: solid 2px #E8EEFA;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 4px;
+    text-align: center;
+}
+
+th{
+    background-color: #D4DDED;
+    border: solid 2px #D4DDED;
+}
+
+caption{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+tr{
+    transition: all 0.5s;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #E8EEFA;
+}
+
+tbody tr:hover{
+    background-color: #D4DDED;
+}
