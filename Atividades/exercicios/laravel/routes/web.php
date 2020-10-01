@@ -14,19 +14,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 use App\Models\Produto;
+use App\Http\Controllers\ProdutoController;
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('principal');
+})->name('principal');
 
-Route::get('/produtos', function () {
+Route::resource('/produtos', ProdutoController::class);
 
-    $produtos = Produto::all();
-    return view('produtos', ['dados'=>$produtos]);
-});
+// Route::get('/produtos', function () {
 
-Route::get('/produtos/{id}', function ($id) {
+//     $produtos = Produto::all();
+//     return view('produtos', ['dados'=>$produtos]);
+// });
 
-    $produto = Produto::findOrFail($id);
-    return view('produtos', ['dados'=>$produto]);
-});
+// Route::get('/produtos/{id}', function ($id) {
+
+//     $produto = Produto::findOrFail($id);
+//     return view('produtos', ['dados'=>$produto]);
+// });
