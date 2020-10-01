@@ -1,61 +1,50 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# **CSI477-2020-03 - PLE - Proposta de Trabalho Final**
+## *Aluno: Caio Lucas da Silva*
+ 
+--------------
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+<!-- Descrever um resumo sobre o trabalho. -->
 
-## About Laravel
+### Resumo
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+HistorYou: Um RPG online por texto onde o jogador fará parte de diversas aventuras (chamadas de conversas), através de uma interface que imita um mensageiro instantâneo. O usuário também poderá criar suas próprias histórias.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<!-- Apresentar o tema. -->
+### 1. Tema
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+O trabalho final tem como tema o desenvolvimento de um RPG online por texto onde  jogador interpretará um personagem que passa por diversas aventuras (conversas) que simulam um mensageiro instantâneo (Whatsapp, Messenger, etc.).
+ 
+<!-- Descrever e limitar o escopo da aplicação. -->
+### 2. Escopo
 
-## Learning Laravel
+Este projeto terá as seguintes funcionalidades:
+- Participação em conversas
+- Criação de conversas
+- Terminar com finais diferentes, de acordo com as escolhas do usuário
+- Salvar seu histórico de conversas em sua conta para continuar posteriormente
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<!-- Apresentar restrições de funcionalidades e de escopo. -->
+### 3. Restrições
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Neste trabalho não serão considerados:
+- O sistema de mensagens em tempo real, é apenas uma simulação de um mensageiro
+- Respostas personalizadas do usuário, ele apenas poderá escolher entre as opções disponíveis
 
-## Laravel Sponsors
+<!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
+### 4. Protótipo
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Tela de login:
 
-### Premium Partners
+![Tela de login](https://i.ibb.co/ySpnvqc/image.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+Seleção de conversas:
 
-## Contributing
+![Seleção de Conversas](https://i.ibb.co/rHc0cJp/image.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Tela da conversa:
 
-## Code of Conduct
+![Conversa](https://i.ibb.co/2K0x07s/image.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<!-- ### 5. Referências
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+  Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
