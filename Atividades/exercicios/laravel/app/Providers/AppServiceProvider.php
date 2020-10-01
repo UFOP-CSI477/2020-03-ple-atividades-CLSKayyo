@@ -13,7 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        return \Faker\Factory::create('pt_BR');
     }
 
     /**
