@@ -20,7 +20,7 @@ Route::get('/', function () {
     return view('principal');
 })->name('principal');
 
-Route::resource('/produtos', ProdutoController::class);
+Route::resource('/produtos', ProdutoController::class)->middleware('auth');
 
 // Route::get('/produtos', function () {
 
@@ -33,3 +33,7 @@ Route::resource('/produtos', ProdutoController::class);
 //     $produto = Produto::findOrFail($id);
 //     return view('produtos', ['dados'=>$produto]);
 // });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
