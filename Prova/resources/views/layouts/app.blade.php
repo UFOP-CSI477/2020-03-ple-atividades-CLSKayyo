@@ -83,9 +83,41 @@
             </div>
         </nav>
 
+        @if (session('mensagem'))
+            <div class="modal fade" id="responsemodal" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sucesso!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>{{session('mensagem')}}</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        @endif
+
         <main class="py-4">
             @yield('content')
         </main>
+
+        @if(session('mensagem'))
+
+            <script>
+                $(document).ready(function() {
+                    $('#responsemodal').modal('show');
+                });
+            </script>
+
+        @endif
     </div>
 </body>
 </html>
