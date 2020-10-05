@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    background-color: #5797EE;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+table *{
+    transition: all 0.3s;
+}
+
+table{
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.btn-warning{
+    width: 80%;
+    position: sticky;
+    bottom: 10px;
+    margin-bottom: 10px;
+}
+
+thead *{
+    color: white
+}
+
+tbody{
+    background-color: white;
+}
+
+.modal-title, .modal-body{
+    color: #0F0F0F;
+}

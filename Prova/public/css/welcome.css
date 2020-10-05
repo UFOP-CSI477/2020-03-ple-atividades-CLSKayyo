@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    background-color: #5797EE;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.card{
+    margin-top: 20px;
+    color: black;
+}
