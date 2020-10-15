@@ -12,7 +12,7 @@ HistorYou: Um RPG online por texto onde o jogador fará parte de diversas aventu
 <!-- Apresentar o tema. -->
 ### 1. Tema
 
-O trabalho final tem como tema o desenvolvimento de um RPG online por texto onde  jogador interpretará um personagem que passa por diversas aventuras (conversas) que simulam um mensageiro instantâneo (Whatsapp, Messenger, etc.).
+O trabalho final tem como tema o desenvolvimento de um RPG online por texto onde  jogador interpretará um personagem que passa por diversas aventuras (conversas) que simulam um mensageiro instantâneo (Whatsapp, Messenger, etc.), podendo ter acesso a diversos finais diferentes dependendo de suas escolhas.
  
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
