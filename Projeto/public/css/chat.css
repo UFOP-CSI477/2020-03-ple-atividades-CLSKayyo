@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    margin-top: 2vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    height: 96vh;
+}
+
+.card-header{
+    height: 80px;
+}
+
+.card-header img{
+    border-radius: 100%;
+}
+
+.card-header span{
+    margin-left: 20px;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+
+.card-body{
+    overflow-y: auto;
+    height: 400px;
+}
+
+.sender-message{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-top: 30px !important;
+    width: 100%;
+    clear: both;
+}
+
+.sender-message img{
+    border-radius: 100%;
+    height: 40px;
+    float: left;
+}
+
+.sender-message .message-body{
+    max-width: 60%;
+    margin-left: 20px;
+    padding: 10px !important;
+    background-color: rgba(127, 255, 212, 0.2);
+    border-radius: 20px;
+    float: left;
+}
+
+.player-message{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-top: 30px !important;
+    width: 100%;
+    clear: both;
+}
+
+.player-message img{
+    border-radius: 100%;
+    height: 40px;
+    float: right;
+}
+
+.player-message .message-body{
+    max-width: 60%;
+    margin-right: 20px;
+    padding: 10px !important;
+    background-color: rgba(219, 219, 219,0.2);
+    border-radius: 20px;
+
+    float: right;
+}
+
+input{
+    border-radius: 20px !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    color: white !important;
+}
+
+
+.btn-outline-light{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+}
