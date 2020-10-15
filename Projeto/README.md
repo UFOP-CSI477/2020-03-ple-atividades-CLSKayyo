@@ -33,17 +33,21 @@ Neste trabalho não serão considerados:
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
 
+Tela Inicial:
+
+![Tela Inicial](https://i.ibb.co/XFBqWg9/Screenshot-2020-10-15-Histor-You.png)
+
 Tela de login:
 
-![Tela de login](https://i.ibb.co/ySpnvqc/image.png)
+![Tela de login](https://i.ibb.co/K5m4yfy/Screenshot-2020-10-15-Histor-You-Login.png)
 
 Seleção de conversas:
 
-![Seleção de Conversas](https://i.ibb.co/rHc0cJp/image.png)
+![Seleção de Aventuras](https://i.ibb.co/51WDX6L/Screenshot-2020-10-15-Histor-You-Dashboard.png)
 
 Tela da conversa:
 
-![Conversa](https://i.ibb.co/2K0x07s/image.png)
+![Conversa](https://i.ibb.co/B2rfZst/Screenshot-2020-10-15-Chat-com-John-Doe.png)
 
 <!-- ### 5. Referências
 
